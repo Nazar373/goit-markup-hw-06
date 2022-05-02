@@ -606,6 +606,7 @@ margin-right: 10px
 
 .footer-container {
   display: flex;
+  position: relative;
 }
 .foot-social-icon {
   width: 20px;
@@ -862,9 +863,11 @@ height: 40px;
 }
 .footer-button {
   margin-top: 72px;
-  margin-left: 160px;
+  margin-left: 92px;
   width: 570px;
   height: 86px;
+  position: absolute;
+  right: 0;
 }
 .title__footer {
   font-weight: 700;
